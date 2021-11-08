@@ -1,3 +1,5 @@
+import javax.swing.*;
+
 public class WidgetFactory {
 
     /*
@@ -28,4 +30,24 @@ public class WidgetFactory {
      Profit: $760.00
 
      */
+
+    /*
+    set up way to get the number of widgets from user
+    find the numbers of days from amount of widgets
+    find the cost of made widgets
+    find the production cost
+    find profits
+     */
+
+    
+    public static void main(String[] args) {
+        JFrame window = new JFrame("RPGCharacter");
+        JPanel panel = new JPanel();
+        window.setSize(600, 600);
+        window.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        window.setLocationRelativeTo(null);
+        window.add(panel);
+
+        window.setVisible(true);
+    }
 }
